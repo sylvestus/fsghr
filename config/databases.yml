@@ -1,0 +1,46 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=127.0.0.1;port=3306;dbname=<?php echo "uiphr"?>'
+      username: root
+      password: 
+      attributes: { export: tables }
+test:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=127.0.0.1;port=3306;dbname=test_ohrm'
+      username: root
+      password: 
+shiloah:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=127.0.0.1;port=3306;dbname=uiphr'
+      username: root
+      password: 
+      
+katangi:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=127.0.0.1;port=3306;dbname=katangihr'
+      username: root
+      password:
+
+grandways:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=127.0.0.1;port=3306;dbname=grandwayshr'
+      username: root
+      password: 
+
+fulchand:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=127.0.0.1;port=3306;dbname=fulchand_hr'
+      username: root
+      password: 

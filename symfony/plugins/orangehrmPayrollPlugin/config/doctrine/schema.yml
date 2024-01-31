@@ -1,0 +1,132 @@
+IncomeTaxSlab:
+  tableName: incometax_slab
+  columns:
+    tb_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    minfigure:
+      type: integer(100)
+    maxfigure:
+      type: integer(100)
+    percentage:
+         type: integer(20)
+
+PayrollConfig:
+  tableName: ohrm_payrollconfig
+  columns:
+    id:
+      type: integer(11)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    personal_relief:
+      type: decimal(6)
+      scale: false      
+      primary: false
+      notnull: true
+      autoincrement: false
+    insurance_relief:
+      type: decimal(6)
+      scale: false      
+      primary: false
+      notnull: true
+      autoincrement: false
+    
+    qualifying_relief:
+      type: decimal(6)
+      scale: false      
+      primary: false
+      notnull: true
+      autoincrement: false
+    spouse_relief:
+      type: decimal(6)
+      scale: false      
+      primary: false
+      notnull: true
+      autoincrement: false
+    other_relief:
+      type: decimal(6)
+      scale: false      
+      primary: false
+      notnull: true
+      autoincrement: false
+      
+Payslip:
+  tableName: payslip
+  columns:
+    id:
+      type: integer(11)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    empname:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false    
+    department:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false    
+    emp_number:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false      
+    employment_income:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false   
+    taxable_income:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false  
+      
+   
+    presentday:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false  
+    weekoff:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false  
+    total_leaves:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false  
+    weekoff:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false  
+   

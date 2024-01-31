@@ -1,0 +1,8 @@
+earningsSuccess:
+  layout: freshorange
+  javascripts:    [-*]
+  stylesheets:    [-*]  
+deductionsSuccess:
+  layout: freshorange
+  javascripts:    [-*]
+  stylesheets:    [-*] 

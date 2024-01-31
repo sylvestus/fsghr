@@ -1,0 +1,60 @@
+[31-Jan-2024 19:08:25 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/lib/utility/PluginExecutionManager.php on line 76
+[31-Jan-2024 19:08:25 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:08:25 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:08:25 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:08:25 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:08:25 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:08:25 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:08:25 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:08:25 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:08:25 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:08:26 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+[31-Jan-2024 19:09:16 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+[31-Jan-2024 19:09:22 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+[31-Jan-2024 19:09:27 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+[31-Jan-2024 19:09:31 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/lib/utility/PluginExecutionManager.php on line 76
+[31-Jan-2024 19:09:31 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:09:31 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:09:31 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:09:31 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:09:31 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:09:31 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:09:31 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:09:31 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:09:31 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:09:32 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+[31-Jan-2024 19:10:30 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/lib/utility/PluginExecutionManager.php on line 76
+[31-Jan-2024 19:10:30 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:10:30 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:10:30 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:10:30 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:10:30 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:10:30 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:10:30 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:10:30 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:10:30 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:10:30 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+[31-Jan-2024 19:11:43 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/lib/utility/PluginExecutionManager.php on line 76
+[31-Jan-2024 19:11:43 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:11:43 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:11:43 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:11:43 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:11:43 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:11:43 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:11:43 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:11:43 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:11:43 Africa/Khartoum] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/html/fgshr/symfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[31-Jan-2024 19:11:43 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+[31-Jan-2024 19:13:03 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+[31-Jan-2024 21:14:23 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+[31-Jan-2024 21:14:31 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+[31-Jan-2024 21:14:51 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+[31-Jan-2024 21:15:30 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+[31-Jan-2024 21:15:35 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+[31-Jan-2024 21:15:43 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+[31-Jan-2024 21:15:58 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+[31-Jan-2024 21:16:00 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+[31-Jan-2024 21:16:02 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+[31-Jan-2024 21:16:03 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+[31-Jan-2024 21:16:09 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+[31-Jan-2024 21:16:22 Africa/Khartoum] Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).

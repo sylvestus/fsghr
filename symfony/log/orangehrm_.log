@@ -1,0 +1,35 @@
+Jan 31 19:08:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /auth/login with parameters array (  'module' => 'auth',  'action' => 'login',)
+Jan 31 19:08:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 19:08:24 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 19:08:24 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 19:08:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 19:08:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 19:08:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 19:08:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_date_format)
+Jan 31 19:08:25 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 19:08:25 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 19:08:25 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 19:08:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.status AS o__status FROM ohrm_module o WHERE (o.status = ?) - (0)
+Jan 31 19:08:25 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 19:08:25 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 19:08:25 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 19:08:25 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/modules/auth/templates/loginSuccess.php"
+Jan 31 19:08:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (themeName)
+Jan 31 19:08:25 symfony [info] {main} Call "core->execute()"
+Jan 31 19:08:25 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 19:08:25 symfony [info] {main} Call "core->execute()"
+Jan 31 19:08:25 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 19:08:25 symfony [info] {main} Call "openidauth->execute()"
+Jan 31 19:08:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (openId.provider.added)
+Jan 31 19:08:25 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmOpenidAuthenticationPlugin/modules/openidauth/templates/_openIDSelect.php"
+Jan 31 19:08:25 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_footer_copyright_social_links.php"
+Jan 31 19:08:25 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_copyright.php"
+Jan 31 19:08:25 symfony [info] {sfPHPView} Decorate content with "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 19:08:25 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 19:08:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 19:08:25 symfony [info] {sfWebResponse} Send header "X-Frame-Options: DENY"
+Jan 31 19:08:25 symfony [info] {sfWebResponse} Send header "Expires: 0"
+Jan 31 19:08:25 symfony [info] {sfWebResponse} Send header "Cache-Control: must-revalidate, post-check=0, pre-check=0, max-age=0, private"
+Jan 31 19:08:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 19:08:25 symfony [info] {sfWebResponse} Send content (25827 o)
+Jan 31 19:08:26 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).

@@ -1,0 +1,8 @@
+loanproductsSuccess:
+  layout: freshorange
+  javascripts:    [-*]
+  stylesheets:    [-*]  
+membersSuccess:
+  layout: freshorange
+  javascripts:    [-*]
+  stylesheets:    [-*] 

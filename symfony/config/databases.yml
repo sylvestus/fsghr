@@ -1,0 +1,46 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;port=3306;dbname=<?php echo "homabay_hr2"?>'
+      username: silvano
+      password: access
+      attributes: { export: tables }
+test:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;port=3306;dbname=<?php echo "homabay_hr2"?>'
+      username: silvano
+      password: access
+shiloah:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;port=3306;dbname=<?php echo "homabay_hr2"?>'
+      username: silvano
+      password: access
+      
+katangi:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;port=3306;dbname=<?php echo "homabay_hr2"?>'
+      username: silvano
+      password: access
+
+grandways:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;port=3306;dbname=<?php echo "homabay_hr2"?>'
+      username: silvano
+      password: access 
+
+fulchand:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;port=3306;dbname=<?php echo "homabay_hr2"?>'
+      username: silvano
+      password: access 

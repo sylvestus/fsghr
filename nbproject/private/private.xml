@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmPimPlugin/lib/form/EmployeeContactDetailsForm.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmAdminPlugin/lib/dao/LocationDao.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmAdminPlugin/modules/admin/templates/viewTransactionSuccess.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmPimPlugin/modules/pim/templates/contactDetailsSuccess.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmPimPlugin/modules/pim/actions/gradeChangeAction.class.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmPimPlugin/modules/pim/actions/viewPersonalDetailsAction.class.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmAdminPlugin/modules/admin/actions/approvalsAction.class.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmPimPlugin/modules/pim/templates/approvalsSuccess.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmAdminPlugin/modules/admin/actions/pdfAction.class.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmPimPlugin/modules/pim/templates/save_jpg.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmPimPlugin/modules/pim/actions/mdaReportAction.class.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/lib/model/doctrine%20-%20Copy/AuditTrailTable.class.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmPimPlugin/modules/pim/actions/ApprovalsAction.class.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmAdminPlugin/modules/admin/actions/viewTransactionAction.class.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmPimPlugin/modules/pim/templates/transferlistSuccess.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmPimPlugin/modules/pim/templates/viewPersonalDetailsSuccess.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/apps/orangehrm/templates/layout.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmPimPlugin/lib/service/PIMLeftMenuService.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmPimPlugin/modules/pim/actions/saveJpgAction.class.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmPimPlugin/lib/form/EmployeePersonalDetailsForm.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/apps/orangehrm/templates/freshorange.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmPimPlugin/modules/pim/templates/mdaReportSuccess.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmAdminPlugin/modules/admin/actions/payGradeAction.class.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmPimPlugin/modules/pim/templates/employeeCardSuccess.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmPimPlugin/modules/pim/templates/gradeChangeSuccess.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmPimPlugin/modules/pim/templates/_pimLeftMenu.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmAdminPlugin/lib/dao/PayGradeDao.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmAdminPlugin/modules/admin/templates/approvalsSuccess.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmPimPlugin/modules/pim/actions/employeeCardAction.class.php</file>
+            <file>file:/C:/xampp/htdocs/ohrm/symfony/plugins/orangehrmPimPlugin/modules/pim/actions/contactDetailsAction.class.php</file>
+        </group>
+    </open-files>
+</project-private>

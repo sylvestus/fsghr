@@ -1,0 +1,779 @@
+Jan 31 19:09:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /auth/validateCredentials with parameters array (  'module' => 'auth',  'action' => 'validateCredentials',)
+Jan 31 19:09:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 19:09:15 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 19:09:15 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 19:09:15 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 19:09:15 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 19:09:15 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 19:09:15 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_date_format)
+Jan 31 19:09:15 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 19:09:15 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 19:09:15 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 19:09:15 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 19:09:15 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 19:09:15 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 19:09:15 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.user_role_id AS o__user_role_id, o.emp_number AS o__emp_number, o.user_name AS o__user_name, o.user_password AS o__user_password, o.deleted AS o__deleted, o.status AS o__status, o.date_entered AS o__date_entered, o.date_modified AS o__date_modified, o.modified_user_id AS o__modified_user_id, o.created_by AS o__created_by FROM ohrm_user o WHERE (o.user_name = ?) - (admin)
+Jan 31 19:09:16 symfony [info] {validateCredentialsAction} Forward to action "auth/retryLogin"
+Jan 31 19:09:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 19:09:16 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 19:09:16 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 19:09:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 19:09:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 19:09:16 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 19:09:16 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 19:09:16 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 19:09:16 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 19:09:16 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 19:09:16 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 19:09:16 symfony [info] {retryLoginAction} Change layout to "noHeader"
+Jan 31 19:09:16 symfony [info] {retryLoginAction} Change template to "auth/login"
+Jan 31 19:09:16 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/modules/auth/templates/loginSuccess.php"
+Jan 31 19:09:16 symfony [info] {main} Call "core->execute()"
+Jan 31 19:09:16 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 19:09:16 symfony [info] {main} Call "core->execute()"
+Jan 31 19:09:16 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 19:09:16 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_footer_copyright_social_links.php"
+Jan 31 19:09:16 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_copyright.php"
+Jan 31 19:09:16 symfony [info] {sfPHPView} Decorate content with "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 19:09:16 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 19:09:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 19:09:16 symfony [info] {sfWebResponse} Send header "X-Frame-Options: DENY"
+Jan 31 19:09:16 symfony [info] {sfWebResponse} Send header "Expires: 0"
+Jan 31 19:09:16 symfony [info] {sfWebResponse} Send header "Cache-Control: must-revalidate, post-check=0, pre-check=0, max-age=0, private"
+Jan 31 19:09:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 19:09:16 symfony [info] {sfWebResponse} Send content (24949 o)
+Jan 31 19:09:16 symfony [info] {myUser} Flag old flash messages ("message")
+Jan 31 19:09:16 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+Jan 31 19:09:16 symfony [info] {myUser} Remove old flash messages ("message")
+Jan 31 19:09:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /auth/validateCredentials with parameters array (  'module' => 'auth',  'action' => 'validateCredentials',)
+Jan 31 19:09:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 19:09:22 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 19:09:22 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 19:09:22 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 19:09:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 19:09:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 19:09:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_date_format)
+Jan 31 19:09:22 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 19:09:22 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 19:09:22 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 19:09:22 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 19:09:22 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 19:09:22 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 19:09:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.user_role_id AS o__user_role_id, o.emp_number AS o__emp_number, o.user_name AS o__user_name, o.user_password AS o__user_password, o.deleted AS o__deleted, o.status AS o__status, o.date_entered AS o__date_entered, o.date_modified AS o__date_modified, o.modified_user_id AS o__modified_user_id, o.created_by AS o__created_by FROM ohrm_user o WHERE (o.user_name = ?) - (admin)
+Jan 31 19:09:22 symfony [info] {validateCredentialsAction} Forward to action "auth/retryLogin"
+Jan 31 19:09:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 19:09:22 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 19:09:22 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 19:09:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 19:09:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 19:09:22 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 19:09:22 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 19:09:22 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 19:09:22 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 19:09:22 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 19:09:22 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 19:09:22 symfony [info] {retryLoginAction} Change layout to "noHeader"
+Jan 31 19:09:22 symfony [info] {retryLoginAction} Change template to "auth/login"
+Jan 31 19:09:22 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/modules/auth/templates/loginSuccess.php"
+Jan 31 19:09:22 symfony [info] {main} Call "core->execute()"
+Jan 31 19:09:22 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 19:09:22 symfony [info] {main} Call "core->execute()"
+Jan 31 19:09:22 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 19:09:22 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_footer_copyright_social_links.php"
+Jan 31 19:09:22 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_copyright.php"
+Jan 31 19:09:22 symfony [info] {sfPHPView} Decorate content with "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 19:09:22 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 19:09:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 19:09:22 symfony [info] {sfWebResponse} Send header "X-Frame-Options: DENY"
+Jan 31 19:09:22 symfony [info] {sfWebResponse} Send header "Expires: 0"
+Jan 31 19:09:22 symfony [info] {sfWebResponse} Send header "Cache-Control: must-revalidate, post-check=0, pre-check=0, max-age=0, private"
+Jan 31 19:09:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 19:09:22 symfony [info] {sfWebResponse} Send content (24949 o)
+Jan 31 19:09:22 symfony [info] {myUser} Flag old flash messages ("message")
+Jan 31 19:09:22 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+Jan 31 19:09:22 symfony [info] {myUser} Remove old flash messages ("message")
+Jan 31 19:09:27 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+Jan 31 19:09:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /auth/login with parameters array (  'module' => 'auth',  'action' => 'login',)
+Jan 31 19:09:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 19:09:31 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 19:09:31 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 19:09:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 19:09:31 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 19:09:31 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 19:09:31 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_date_format)
+Jan 31 19:09:31 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 19:09:31 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 19:09:31 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 19:09:31 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 19:09:31 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 19:09:31 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 19:09:31 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/modules/auth/templates/loginSuccess.php"
+Jan 31 19:09:31 symfony [info] {main} Call "core->execute()"
+Jan 31 19:09:31 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 19:09:31 symfony [info] {main} Call "core->execute()"
+Jan 31 19:09:31 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 19:09:31 symfony [info] {main} Call "openidauth->execute()"
+Jan 31 19:09:31 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (openId.provider.added)
+Jan 31 19:09:31 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmOpenidAuthenticationPlugin/modules/openidauth/templates/_openIDSelect.php"
+Jan 31 19:09:31 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_footer_copyright_social_links.php"
+Jan 31 19:09:31 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_copyright.php"
+Jan 31 19:09:31 symfony [info] {sfPHPView} Decorate content with "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 19:09:31 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 19:09:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 19:09:31 symfony [info] {sfWebResponse} Send header "X-Frame-Options: DENY"
+Jan 31 19:09:31 symfony [info] {sfWebResponse} Send header "Expires: 0"
+Jan 31 19:09:31 symfony [info] {sfWebResponse} Send header "Cache-Control: must-revalidate, post-check=0, pre-check=0, max-age=0, private"
+Jan 31 19:09:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 19:09:31 symfony [info] {sfWebResponse} Send content (25827 o)
+Jan 31 19:09:32 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+Jan 31 19:10:30 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /auth/login with parameters array (  'module' => 'auth',  'action' => 'login',)
+Jan 31 19:10:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 19:10:30 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 19:10:30 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 19:10:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 19:10:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 19:10:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 19:10:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_date_format)
+Jan 31 19:10:30 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 19:10:30 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 19:10:30 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 19:10:30 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 19:10:30 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 19:10:30 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 19:10:30 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/modules/auth/templates/loginSuccess.php"
+Jan 31 19:10:30 symfony [info] {main} Call "core->execute()"
+Jan 31 19:10:30 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 19:10:30 symfony [info] {main} Call "core->execute()"
+Jan 31 19:10:30 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 19:10:30 symfony [info] {main} Call "openidauth->execute()"
+Jan 31 19:10:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (openId.provider.added)
+Jan 31 19:10:30 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmOpenidAuthenticationPlugin/modules/openidauth/templates/_openIDSelect.php"
+Jan 31 19:10:30 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_footer_copyright_social_links.php"
+Jan 31 19:10:30 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_copyright.php"
+Jan 31 19:10:30 symfony [info] {sfPHPView} Decorate content with "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 19:10:30 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 19:10:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 19:10:30 symfony [info] {sfWebResponse} Send header "X-Frame-Options: DENY"
+Jan 31 19:10:30 symfony [info] {sfWebResponse} Send header "Expires: 0"
+Jan 31 19:10:30 symfony [info] {sfWebResponse} Send header "Cache-Control: must-revalidate, post-check=0, pre-check=0, max-age=0, private"
+Jan 31 19:10:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 19:10:30 symfony [info] {sfWebResponse} Send content (25827 o)
+Jan 31 19:10:30 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+Jan 31 19:11:43 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /auth/login with parameters array (  'module' => 'auth',  'action' => 'login',)
+Jan 31 19:11:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 19:11:43 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 19:11:43 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 19:11:43 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 19:11:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 19:11:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 19:11:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_date_format)
+Jan 31 19:11:43 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 19:11:43 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 19:11:43 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 19:11:43 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 19:11:43 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 19:11:43 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 19:11:43 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/modules/auth/templates/loginSuccess.php"
+Jan 31 19:11:43 symfony [info] {main} Call "core->execute()"
+Jan 31 19:11:43 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 19:11:43 symfony [info] {main} Call "core->execute()"
+Jan 31 19:11:43 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 19:11:43 symfony [info] {main} Call "openidauth->execute()"
+Jan 31 19:11:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (openId.provider.added)
+Jan 31 19:11:43 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmOpenidAuthenticationPlugin/modules/openidauth/templates/_openIDSelect.php"
+Jan 31 19:11:43 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_footer_copyright_social_links.php"
+Jan 31 19:11:43 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_copyright.php"
+Jan 31 19:11:43 symfony [info] {sfPHPView} Decorate content with "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 19:11:43 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 19:11:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 19:11:43 symfony [info] {sfWebResponse} Send header "X-Frame-Options: DENY"
+Jan 31 19:11:43 symfony [info] {sfWebResponse} Send header "Expires: 0"
+Jan 31 19:11:43 symfony [info] {sfWebResponse} Send header "Cache-Control: must-revalidate, post-check=0, pre-check=0, max-age=0, private"
+Jan 31 19:11:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 19:11:43 symfony [info] {sfWebResponse} Send content (25827 o)
+Jan 31 19:11:43 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+Jan 31 19:13:03 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /auth/login with parameters array (  'module' => 'auth',  'action' => 'login',)
+Jan 31 19:13:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 19:13:03 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 19:13:03 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 19:13:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 19:13:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 19:13:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 19:13:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_date_format)
+Jan 31 19:13:03 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 19:13:03 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 19:13:03 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 19:13:03 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 19:13:03 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 19:13:03 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 19:13:03 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/modules/auth/templates/loginSuccess.php"
+Jan 31 19:13:03 symfony [info] {main} Call "core->execute()"
+Jan 31 19:13:03 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 19:13:03 symfony [info] {main} Call "core->execute()"
+Jan 31 19:13:03 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 19:13:03 symfony [info] {main} Call "openidauth->execute()"
+Jan 31 19:13:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (openId.provider.added)
+Jan 31 19:13:03 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmOpenidAuthenticationPlugin/modules/openidauth/templates/_openIDSelect.php"
+Jan 31 19:13:03 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_footer_copyright_social_links.php"
+Jan 31 19:13:03 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_copyright.php"
+Jan 31 19:13:03 symfony [info] {sfPHPView} Decorate content with "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 19:13:03 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 19:13:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 19:13:03 symfony [info] {sfWebResponse} Send header "X-Frame-Options: DENY"
+Jan 31 19:13:03 symfony [info] {sfWebResponse} Send header "Expires: 0"
+Jan 31 19:13:03 symfony [info] {sfWebResponse} Send header "Cache-Control: must-revalidate, post-check=0, pre-check=0, max-age=0, private"
+Jan 31 19:13:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 19:13:03 symfony [info] {sfWebResponse} Send content (25827 o)
+Jan 31 19:13:03 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+Jan 31 21:14:23 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /auth/validateCredentials with parameters array (  'module' => 'auth',  'action' => 'validateCredentials',)
+Jan 31 21:14:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:14:23 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:14:23 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:14:23 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 21:14:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:14:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:14:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_date_format)
+Jan 31 21:14:23 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:14:23 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:14:23 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:14:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.name AS o__name, o.status AS o__status FROM ohrm_module o WHERE (o.status = ?) - (0)
+Jan 31 21:14:23 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:14:23 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:14:23 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:14:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.user_role_id AS o__user_role_id, o.emp_number AS o__emp_number, o.user_name AS o__user_name, o.user_password AS o__user_password, o.deleted AS o__deleted, o.status AS o__status, o.date_entered AS o__date_entered, o.date_modified AS o__date_modified, o.modified_user_id AS o__modified_user_id, o.created_by AS o__created_by FROM ohrm_user o WHERE (o.user_name = ?) - (Jared)
+Jan 31 21:14:23 symfony [info] {validateCredentialsAction} Forward to action "auth/retryLogin"
+Jan 31 21:14:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:14:23 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:14:23 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:14:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:14:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:14:23 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:14:23 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:14:23 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:14:23 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:14:23 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:14:23 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:14:23 symfony [info] {retryLoginAction} Change layout to "noHeader"
+Jan 31 21:14:23 symfony [info] {retryLoginAction} Change template to "auth/login"
+Jan 31 21:14:23 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/modules/auth/templates/loginSuccess.php"
+Jan 31 21:14:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (themeName)
+Jan 31 21:14:23 symfony [info] {main} Call "core->execute()"
+Jan 31 21:14:23 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:14:23 symfony [info] {main} Call "core->execute()"
+Jan 31 21:14:23 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:14:23 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_footer_copyright_social_links.php"
+Jan 31 21:14:23 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_copyright.php"
+Jan 31 21:14:23 symfony [info] {sfPHPView} Decorate content with "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:14:23 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:14:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 21:14:23 symfony [info] {sfWebResponse} Send header "X-Frame-Options: DENY"
+Jan 31 21:14:23 symfony [info] {sfWebResponse} Send header "Expires: 0"
+Jan 31 21:14:23 symfony [info] {sfWebResponse} Send header "Cache-Control: must-revalidate, post-check=0, pre-check=0, max-age=0, private"
+Jan 31 21:14:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 21:14:23 symfony [info] {sfWebResponse} Send content (24949 o)
+Jan 31 21:14:23 symfony [info] {myUser} Flag old flash messages ("message")
+Jan 31 21:14:23 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+Jan 31 21:14:23 symfony [info] {myUser} Remove old flash messages ("message")
+Jan 31 21:14:30 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /auth/validateCredentials with parameters array (  'module' => 'auth',  'action' => 'validateCredentials',)
+Jan 31 21:14:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:14:30 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:14:30 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:14:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 21:14:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:14:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:14:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_date_format)
+Jan 31 21:14:30 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:14:30 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:14:30 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:14:30 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:14:30 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:14:30 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:14:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.user_role_id AS o__user_role_id, o.emp_number AS o__emp_number, o.user_name AS o__user_name, o.user_password AS o__user_password, o.deleted AS o__deleted, o.status AS o__status, o.date_entered AS o__date_entered, o.date_modified AS o__date_modified, o.modified_user_id AS o__modified_user_id, o.created_by AS o__created_by FROM ohrm_user o WHERE (o.user_name = ?) - (admin)
+Jan 31 21:14:31 symfony [info] {validateCredentialsAction} Forward to action "auth/retryLogin"
+Jan 31 21:14:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:14:31 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:14:31 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:14:31 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:14:31 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:14:31 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:14:31 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:14:31 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:14:31 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:14:31 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:14:31 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:14:31 symfony [info] {retryLoginAction} Change layout to "noHeader"
+Jan 31 21:14:31 symfony [info] {retryLoginAction} Change template to "auth/login"
+Jan 31 21:14:31 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/modules/auth/templates/loginSuccess.php"
+Jan 31 21:14:31 symfony [info] {main} Call "core->execute()"
+Jan 31 21:14:31 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:14:31 symfony [info] {main} Call "core->execute()"
+Jan 31 21:14:31 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:14:31 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_footer_copyright_social_links.php"
+Jan 31 21:14:31 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_copyright.php"
+Jan 31 21:14:31 symfony [info] {sfPHPView} Decorate content with "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:14:31 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:14:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 21:14:31 symfony [info] {sfWebResponse} Send header "X-Frame-Options: DENY"
+Jan 31 21:14:31 symfony [info] {sfWebResponse} Send header "Expires: 0"
+Jan 31 21:14:31 symfony [info] {sfWebResponse} Send header "Cache-Control: must-revalidate, post-check=0, pre-check=0, max-age=0, private"
+Jan 31 21:14:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 21:14:31 symfony [info] {sfWebResponse} Send content (24949 o)
+Jan 31 21:14:31 symfony [info] {myUser} Flag old flash messages ("message")
+Jan 31 21:14:31 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+Jan 31 21:14:31 symfony [info] {myUser} Remove old flash messages ("message")
+Jan 31 21:14:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /auth/validateCredentials with parameters array (  'module' => 'auth',  'action' => 'validateCredentials',)
+Jan 31 21:14:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:14:51 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:14:51 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:14:51 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 21:14:51 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:14:51 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:14:51 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_date_format)
+Jan 31 21:14:51 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:14:51 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:14:51 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:14:51 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:14:51 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:14:51 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:14:51 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.user_role_id AS o__user_role_id, o.emp_number AS o__emp_number, o.user_name AS o__user_name, o.user_password AS o__user_password, o.deleted AS o__deleted, o.status AS o__status, o.date_entered AS o__date_entered, o.date_modified AS o__date_modified, o.modified_user_id AS o__modified_user_id, o.created_by AS o__created_by FROM ohrm_user o WHERE (o.user_name = ?) - (admin)
+Jan 31 21:14:51 symfony [info] {validateCredentialsAction} Forward to action "auth/retryLogin"
+Jan 31 21:14:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:14:51 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:14:51 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:14:51 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:14:51 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:14:51 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:14:51 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:14:51 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:14:51 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:14:51 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:14:51 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:14:51 symfony [info] {retryLoginAction} Change layout to "noHeader"
+Jan 31 21:14:51 symfony [info] {retryLoginAction} Change template to "auth/login"
+Jan 31 21:14:51 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/modules/auth/templates/loginSuccess.php"
+Jan 31 21:14:51 symfony [info] {main} Call "core->execute()"
+Jan 31 21:14:51 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:14:51 symfony [info] {main} Call "core->execute()"
+Jan 31 21:14:51 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:14:51 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_footer_copyright_social_links.php"
+Jan 31 21:14:51 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_copyright.php"
+Jan 31 21:14:51 symfony [info] {sfPHPView} Decorate content with "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:14:51 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:14:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 21:14:51 symfony [info] {sfWebResponse} Send header "X-Frame-Options: DENY"
+Jan 31 21:14:51 symfony [info] {sfWebResponse} Send header "Expires: 0"
+Jan 31 21:14:51 symfony [info] {sfWebResponse} Send header "Cache-Control: must-revalidate, post-check=0, pre-check=0, max-age=0, private"
+Jan 31 21:14:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 21:14:51 symfony [info] {sfWebResponse} Send content (24949 o)
+Jan 31 21:14:51 symfony [info] {myUser} Flag old flash messages ("message")
+Jan 31 21:14:51 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+Jan 31 21:14:51 symfony [info] {myUser} Remove old flash messages ("message")
+Jan 31 21:15:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /auth/login with parameters array (  'module' => 'auth',  'action' => 'login',)
+Jan 31 21:15:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:15:29 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:15:29 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:15:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 21:15:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:15:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:15:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_date_format)
+Jan 31 21:15:29 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:15:29 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:15:29 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:15:29 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:15:29 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:15:29 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:15:29 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/modules/auth/templates/loginSuccess.php"
+Jan 31 21:15:30 symfony [info] {main} Call "core->execute()"
+Jan 31 21:15:30 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:15:30 symfony [info] {main} Call "core->execute()"
+Jan 31 21:15:30 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:15:30 symfony [info] {main} Call "openidauth->execute()"
+Jan 31 21:15:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (openId.provider.added)
+Jan 31 21:15:30 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmOpenidAuthenticationPlugin/modules/openidauth/templates/_openIDSelect.php"
+Jan 31 21:15:30 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_footer_copyright_social_links.php"
+Jan 31 21:15:30 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_copyright.php"
+Jan 31 21:15:30 symfony [info] {sfPHPView} Decorate content with "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:15:30 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:15:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 21:15:30 symfony [info] {sfWebResponse} Send header "X-Frame-Options: DENY"
+Jan 31 21:15:30 symfony [info] {sfWebResponse} Send header "Expires: 0"
+Jan 31 21:15:30 symfony [info] {sfWebResponse} Send header "Cache-Control: must-revalidate, post-check=0, pre-check=0, max-age=0, private"
+Jan 31 21:15:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 21:15:30 symfony [info] {sfWebResponse} Send content (25827 o)
+Jan 31 21:15:30 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+Jan 31 21:15:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /auth/validateCredentials with parameters array (  'module' => 'auth',  'action' => 'validateCredentials',)
+Jan 31 21:15:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:15:34 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:15:34 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:15:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 21:15:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:15:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:15:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_date_format)
+Jan 31 21:15:34 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:15:34 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:15:34 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:15:34 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:15:34 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:15:34 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:15:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.user_role_id AS o__user_role_id, o.emp_number AS o__emp_number, o.user_name AS o__user_name, o.user_password AS o__user_password, o.deleted AS o__deleted, o.status AS o__status, o.date_entered AS o__date_entered, o.date_modified AS o__date_modified, o.modified_user_id AS o__modified_user_id, o.created_by AS o__created_by FROM ohrm_user o WHERE (o.user_name = ?) - (admin)
+Jan 31 21:15:35 symfony [info] {validateCredentialsAction} Forward to action "auth/retryLogin"
+Jan 31 21:15:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:15:35 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:15:35 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:15:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:15:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:15:35 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:15:35 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:15:35 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:15:35 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:15:35 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:15:35 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:15:35 symfony [info] {retryLoginAction} Change layout to "noHeader"
+Jan 31 21:15:35 symfony [info] {retryLoginAction} Change template to "auth/login"
+Jan 31 21:15:35 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/modules/auth/templates/loginSuccess.php"
+Jan 31 21:15:35 symfony [info] {main} Call "core->execute()"
+Jan 31 21:15:35 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:15:35 symfony [info] {main} Call "core->execute()"
+Jan 31 21:15:35 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:15:35 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_footer_copyright_social_links.php"
+Jan 31 21:15:35 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_copyright.php"
+Jan 31 21:15:35 symfony [info] {sfPHPView} Decorate content with "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:15:35 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:15:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 21:15:35 symfony [info] {sfWebResponse} Send header "X-Frame-Options: DENY"
+Jan 31 21:15:35 symfony [info] {sfWebResponse} Send header "Expires: 0"
+Jan 31 21:15:35 symfony [info] {sfWebResponse} Send header "Cache-Control: must-revalidate, post-check=0, pre-check=0, max-age=0, private"
+Jan 31 21:15:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 21:15:35 symfony [info] {sfWebResponse} Send content (24949 o)
+Jan 31 21:15:35 symfony [info] {myUser} Flag old flash messages ("message")
+Jan 31 21:15:35 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+Jan 31 21:15:35 symfony [info] {myUser} Remove old flash messages ("message")
+Jan 31 21:15:43 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /auth/validateCredentials with parameters array (  'module' => 'auth',  'action' => 'validateCredentials',)
+Jan 31 21:15:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:15:43 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:15:43 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:15:43 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 21:15:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:15:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:15:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_date_format)
+Jan 31 21:15:43 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:15:43 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:15:43 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:15:43 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:15:43 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:15:43 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:15:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.user_role_id AS o__user_role_id, o.emp_number AS o__emp_number, o.user_name AS o__user_name, o.user_password AS o__user_password, o.deleted AS o__deleted, o.status AS o__status, o.date_entered AS o__date_entered, o.date_modified AS o__date_modified, o.modified_user_id AS o__modified_user_id, o.created_by AS o__created_by FROM ohrm_user o WHERE (o.user_name = ?) - (admin)
+Jan 31 21:15:43 symfony [info] {validateCredentialsAction} Forward to action "auth/retryLogin"
+Jan 31 21:15:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:15:43 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:15:43 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:15:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:15:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:15:43 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:15:43 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:15:43 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:15:43 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:15:43 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:15:43 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:15:43 symfony [info] {retryLoginAction} Change layout to "noHeader"
+Jan 31 21:15:43 symfony [info] {retryLoginAction} Change template to "auth/login"
+Jan 31 21:15:43 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/modules/auth/templates/loginSuccess.php"
+Jan 31 21:15:43 symfony [info] {main} Call "core->execute()"
+Jan 31 21:15:43 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:15:43 symfony [info] {main} Call "core->execute()"
+Jan 31 21:15:43 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:15:43 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_footer_copyright_social_links.php"
+Jan 31 21:15:43 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_copyright.php"
+Jan 31 21:15:43 symfony [info] {sfPHPView} Decorate content with "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:15:43 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:15:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 21:15:43 symfony [info] {sfWebResponse} Send header "X-Frame-Options: DENY"
+Jan 31 21:15:43 symfony [info] {sfWebResponse} Send header "Expires: 0"
+Jan 31 21:15:43 symfony [info] {sfWebResponse} Send header "Cache-Control: must-revalidate, post-check=0, pre-check=0, max-age=0, private"
+Jan 31 21:15:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 21:15:43 symfony [info] {sfWebResponse} Send content (24949 o)
+Jan 31 21:15:43 symfony [info] {myUser} Flag old flash messages ("message")
+Jan 31 21:15:43 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+Jan 31 21:15:43 symfony [info] {myUser} Remove old flash messages ("message")
+Jan 31 21:15:58 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /auth/validateCredentials with parameters array (  'module' => 'auth',  'action' => 'validateCredentials',)
+Jan 31 21:15:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:15:58 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:15:58 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:15:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 21:15:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:15:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:15:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_date_format)
+Jan 31 21:15:58 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:15:58 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:15:58 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:15:58 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:15:58 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:15:58 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:15:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.user_role_id AS o__user_role_id, o.emp_number AS o__emp_number, o.user_name AS o__user_name, o.user_password AS o__user_password, o.deleted AS o__deleted, o.status AS o__status, o.date_entered AS o__date_entered, o.date_modified AS o__date_modified, o.modified_user_id AS o__modified_user_id, o.created_by AS o__created_by FROM ohrm_user o WHERE (o.user_name = ?) - (admin)
+Jan 31 21:15:58 symfony [info] {validateCredentialsAction} Forward to action "auth/retryLogin"
+Jan 31 21:15:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:15:58 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:15:58 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:15:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:15:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:15:58 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:15:58 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:15:58 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:15:58 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:15:58 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:15:58 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:15:58 symfony [info] {retryLoginAction} Change layout to "noHeader"
+Jan 31 21:15:58 symfony [info] {retryLoginAction} Change template to "auth/login"
+Jan 31 21:15:58 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/modules/auth/templates/loginSuccess.php"
+Jan 31 21:15:58 symfony [info] {main} Call "core->execute()"
+Jan 31 21:15:58 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:15:58 symfony [info] {main} Call "core->execute()"
+Jan 31 21:15:58 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:15:58 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_footer_copyright_social_links.php"
+Jan 31 21:15:58 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_copyright.php"
+Jan 31 21:15:58 symfony [info] {sfPHPView} Decorate content with "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:15:58 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:15:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 21:15:58 symfony [info] {sfWebResponse} Send header "X-Frame-Options: DENY"
+Jan 31 21:15:58 symfony [info] {sfWebResponse} Send header "Expires: 0"
+Jan 31 21:15:58 symfony [info] {sfWebResponse} Send header "Cache-Control: must-revalidate, post-check=0, pre-check=0, max-age=0, private"
+Jan 31 21:15:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 21:15:58 symfony [info] {sfWebResponse} Send content (24949 o)
+Jan 31 21:15:58 symfony [info] {myUser} Flag old flash messages ("message")
+Jan 31 21:15:58 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+Jan 31 21:15:58 symfony [info] {myUser} Remove old flash messages ("message")
+Jan 31 21:16:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /auth/validateCredentials with parameters array (  'module' => 'auth',  'action' => 'validateCredentials',)
+Jan 31 21:16:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:16:00 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:16:00 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:16:00 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 21:16:00 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:16:00 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:16:00 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_date_format)
+Jan 31 21:16:00 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:16:00 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:16:00 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:16:00 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:16:00 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:16:00 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:16:00 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.user_role_id AS o__user_role_id, o.emp_number AS o__emp_number, o.user_name AS o__user_name, o.user_password AS o__user_password, o.deleted AS o__deleted, o.status AS o__status, o.date_entered AS o__date_entered, o.date_modified AS o__date_modified, o.modified_user_id AS o__modified_user_id, o.created_by AS o__created_by FROM ohrm_user o WHERE (o.user_name = ?) - (admin)
+Jan 31 21:16:00 symfony [info] {validateCredentialsAction} Forward to action "auth/retryLogin"
+Jan 31 21:16:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:16:00 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:16:00 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:16:00 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:16:00 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:16:00 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:16:00 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:16:00 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:16:00 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:16:00 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:16:00 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:16:00 symfony [info] {retryLoginAction} Change layout to "noHeader"
+Jan 31 21:16:00 symfony [info] {retryLoginAction} Change template to "auth/login"
+Jan 31 21:16:00 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/modules/auth/templates/loginSuccess.php"
+Jan 31 21:16:00 symfony [info] {main} Call "core->execute()"
+Jan 31 21:16:00 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:16:00 symfony [info] {main} Call "core->execute()"
+Jan 31 21:16:00 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:16:00 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_footer_copyright_social_links.php"
+Jan 31 21:16:00 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_copyright.php"
+Jan 31 21:16:00 symfony [info] {sfPHPView} Decorate content with "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:16:00 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:16:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 21:16:00 symfony [info] {sfWebResponse} Send header "X-Frame-Options: DENY"
+Jan 31 21:16:00 symfony [info] {sfWebResponse} Send header "Expires: 0"
+Jan 31 21:16:00 symfony [info] {sfWebResponse} Send header "Cache-Control: must-revalidate, post-check=0, pre-check=0, max-age=0, private"
+Jan 31 21:16:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 21:16:00 symfony [info] {sfWebResponse} Send content (24949 o)
+Jan 31 21:16:00 symfony [info] {myUser} Flag old flash messages ("message")
+Jan 31 21:16:00 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+Jan 31 21:16:00 symfony [info] {myUser} Remove old flash messages ("message")
+Jan 31 21:16:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /auth/validateCredentials with parameters array (  'module' => 'auth',  'action' => 'validateCredentials',)
+Jan 31 21:16:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:16:01 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:16:01 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:16:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 21:16:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:16:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:16:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_date_format)
+Jan 31 21:16:01 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:16:01 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:16:01 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:16:01 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:16:01 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:16:01 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:16:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.user_role_id AS o__user_role_id, o.emp_number AS o__emp_number, o.user_name AS o__user_name, o.user_password AS o__user_password, o.deleted AS o__deleted, o.status AS o__status, o.date_entered AS o__date_entered, o.date_modified AS o__date_modified, o.modified_user_id AS o__modified_user_id, o.created_by AS o__created_by FROM ohrm_user o WHERE (o.user_name = ?) - (admin)
+Jan 31 21:16:02 symfony [info] {validateCredentialsAction} Forward to action "auth/retryLogin"
+Jan 31 21:16:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:16:02 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:16:02 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:16:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:16:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:16:02 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:16:02 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:16:02 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:16:02 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:16:02 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:16:02 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:16:02 symfony [info] {retryLoginAction} Change layout to "noHeader"
+Jan 31 21:16:02 symfony [info] {retryLoginAction} Change template to "auth/login"
+Jan 31 21:16:02 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/modules/auth/templates/loginSuccess.php"
+Jan 31 21:16:02 symfony [info] {main} Call "core->execute()"
+Jan 31 21:16:02 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:16:02 symfony [info] {main} Call "core->execute()"
+Jan 31 21:16:02 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:16:02 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_footer_copyright_social_links.php"
+Jan 31 21:16:02 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_copyright.php"
+Jan 31 21:16:02 symfony [info] {sfPHPView} Decorate content with "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:16:02 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:16:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 21:16:02 symfony [info] {sfWebResponse} Send header "X-Frame-Options: DENY"
+Jan 31 21:16:02 symfony [info] {sfWebResponse} Send header "Expires: 0"
+Jan 31 21:16:02 symfony [info] {sfWebResponse} Send header "Cache-Control: must-revalidate, post-check=0, pre-check=0, max-age=0, private"
+Jan 31 21:16:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 21:16:02 symfony [info] {sfWebResponse} Send content (24949 o)
+Jan 31 21:16:02 symfony [info] {myUser} Flag old flash messages ("message")
+Jan 31 21:16:02 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+Jan 31 21:16:02 symfony [info] {myUser} Remove old flash messages ("message")
+Jan 31 21:16:03 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /auth/validateCredentials with parameters array (  'module' => 'auth',  'action' => 'validateCredentials',)
+Jan 31 21:16:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:16:03 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:16:03 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:16:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 21:16:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:16:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:16:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_date_format)
+Jan 31 21:16:03 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:16:03 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:16:03 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:16:03 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:16:03 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:16:03 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:16:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.user_role_id AS o__user_role_id, o.emp_number AS o__emp_number, o.user_name AS o__user_name, o.user_password AS o__user_password, o.deleted AS o__deleted, o.status AS o__status, o.date_entered AS o__date_entered, o.date_modified AS o__date_modified, o.modified_user_id AS o__modified_user_id, o.created_by AS o__created_by FROM ohrm_user o WHERE (o.user_name = ?) - (admin)
+Jan 31 21:16:03 symfony [info] {validateCredentialsAction} Forward to action "auth/retryLogin"
+Jan 31 21:16:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:16:03 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:16:03 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:16:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:16:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:16:03 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:16:03 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:16:03 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:16:03 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:16:03 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:16:03 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:16:03 symfony [info] {retryLoginAction} Change layout to "noHeader"
+Jan 31 21:16:03 symfony [info] {retryLoginAction} Change template to "auth/login"
+Jan 31 21:16:03 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/modules/auth/templates/loginSuccess.php"
+Jan 31 21:16:03 symfony [info] {main} Call "core->execute()"
+Jan 31 21:16:03 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:16:03 symfony [info] {main} Call "core->execute()"
+Jan 31 21:16:03 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:16:03 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_footer_copyright_social_links.php"
+Jan 31 21:16:03 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_copyright.php"
+Jan 31 21:16:03 symfony [info] {sfPHPView} Decorate content with "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:16:03 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:16:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 21:16:03 symfony [info] {sfWebResponse} Send header "X-Frame-Options: DENY"
+Jan 31 21:16:03 symfony [info] {sfWebResponse} Send header "Expires: 0"
+Jan 31 21:16:03 symfony [info] {sfWebResponse} Send header "Cache-Control: must-revalidate, post-check=0, pre-check=0, max-age=0, private"
+Jan 31 21:16:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 21:16:03 symfony [info] {sfWebResponse} Send content (24949 o)
+Jan 31 21:16:03 symfony [info] {myUser} Flag old flash messages ("message")
+Jan 31 21:16:03 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+Jan 31 21:16:03 symfony [info] {myUser} Remove old flash messages ("message")
+Jan 31 21:16:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /auth/validateCredentials with parameters array (  'module' => 'auth',  'action' => 'validateCredentials',)
+Jan 31 21:16:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:16:09 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:16:09 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:16:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 21:16:09 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:16:09 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:16:09 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_date_format)
+Jan 31 21:16:09 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:16:09 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:16:09 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:16:09 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:16:09 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:16:09 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:16:09 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.user_role_id AS o__user_role_id, o.emp_number AS o__emp_number, o.user_name AS o__user_name, o.user_password AS o__user_password, o.deleted AS o__deleted, o.status AS o__status, o.date_entered AS o__date_entered, o.date_modified AS o__date_modified, o.modified_user_id AS o__modified_user_id, o.created_by AS o__created_by FROM ohrm_user o WHERE (o.user_name = ?) - (jared)
+Jan 31 21:16:09 symfony [info] {validateCredentialsAction} Forward to action "auth/retryLogin"
+Jan 31 21:16:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:16:09 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:16:09 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:16:09 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:16:09 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:16:09 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:16:09 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:16:09 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:16:09 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:16:09 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:16:09 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:16:09 symfony [info] {retryLoginAction} Change layout to "noHeader"
+Jan 31 21:16:09 symfony [info] {retryLoginAction} Change template to "auth/login"
+Jan 31 21:16:09 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/modules/auth/templates/loginSuccess.php"
+Jan 31 21:16:09 symfony [info] {main} Call "core->execute()"
+Jan 31 21:16:09 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:16:09 symfony [info] {main} Call "core->execute()"
+Jan 31 21:16:09 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:16:09 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_footer_copyright_social_links.php"
+Jan 31 21:16:09 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_copyright.php"
+Jan 31 21:16:09 symfony [info] {sfPHPView} Decorate content with "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:16:09 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:16:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 21:16:09 symfony [info] {sfWebResponse} Send header "X-Frame-Options: DENY"
+Jan 31 21:16:09 symfony [info] {sfWebResponse} Send header "Expires: 0"
+Jan 31 21:16:09 symfony [info] {sfWebResponse} Send header "Cache-Control: must-revalidate, post-check=0, pre-check=0, max-age=0, private"
+Jan 31 21:16:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 21:16:09 symfony [info] {sfWebResponse} Send content (24949 o)
+Jan 31 21:16:09 symfony [info] {myUser} Flag old flash messages ("message")
+Jan 31 21:16:09 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+Jan 31 21:16:09 symfony [info] {myUser} Remove old flash messages ("message")
+Jan 31 21:16:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /auth/validateCredentials with parameters array (  'module' => 'auth',  'action' => 'validateCredentials',)
+Jan 31 21:16:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:16:21 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:16:21 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:16:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 21:16:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:16:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:16:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_date_format)
+Jan 31 21:16:21 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:16:21 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:16:21 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:16:21 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:16:21 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:16:21 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:16:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.user_role_id AS o__user_role_id, o.emp_number AS o__emp_number, o.user_name AS o__user_name, o.user_password AS o__user_password, o.deleted AS o__deleted, o.status AS o__status, o.date_entered AS o__date_entered, o.date_modified AS o__date_modified, o.modified_user_id AS o__modified_user_id, o.created_by AS o__created_by FROM ohrm_user o WHERE (o.user_name = ?) - (admin)
+Jan 31 21:16:21 symfony [info] {validateCredentialsAction} Forward to action "auth/retryLogin"
+Jan 31 21:16:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 21:16:21 symfony [info] {sfFilterChain} Executing filter "ExceptionCatcherFilter"
+Jan 31 21:16:21 symfony [info] {sfFilterChain} Executing filter "OrangeI18NFilter"
+Jan 31 21:16:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.default_language)
+Jan 31 21:16:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT h.value AS h__value FROM hs_hr_config h WHERE (h.`key` = ?) - (admin.localization.use_browser_language)
+Jan 31 21:16:21 symfony [info] {sfFilterChain} Executing filter "SessionInfoFetcherFilter"
+Jan 31 21:16:21 symfony [info] {sfFilterChain} Executing filter "ohrmAuthorizationFilter"
+Jan 31 21:16:21 symfony [info] {sfFilterChain} Executing filter "ModuleFilter"
+Jan 31 21:16:21 symfony [info] {sfFilterChain} Executing filter "orangehrmPostExecutionFilter"
+Jan 31 21:16:21 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 31 21:16:21 symfony [info] {sfFilterChain} Executing filter "orangehrmExecutionFilter"
+Jan 31 21:16:21 symfony [info] {retryLoginAction} Change layout to "noHeader"
+Jan 31 21:16:21 symfony [info] {retryLoginAction} Change template to "auth/login"
+Jan 31 21:16:21 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/modules/auth/templates/loginSuccess.php"
+Jan 31 21:16:21 symfony [info] {main} Call "core->execute()"
+Jan 31 21:16:21 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:16:21 symfony [info] {main} Call "core->execute()"
+Jan 31 21:16:21 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/plugins/orangehrmCorePlugin/modules/core/templates/_ohrmPluginPannel.php"
+Jan 31 21:16:21 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_footer_copyright_social_links.php"
+Jan 31 21:16:21 symfony [info] {sfPartialView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/_copyright.php"
+Jan 31 21:16:21 symfony [info] {sfPHPView} Decorate content with "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:16:21 symfony [info] {sfPHPView} Render "/var/www/html/fgshr/symfony/apps/orangehrm/templates/noHeader.php"
+Jan 31 21:16:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 21:16:21 symfony [info] {sfWebResponse} Send header "X-Frame-Options: DENY"
+Jan 31 21:16:21 symfony [info] {sfWebResponse} Send header "Expires: 0"
+Jan 31 21:16:21 symfony [info] {sfWebResponse} Send header "Cache-Control: must-revalidate, post-check=0, pre-check=0, max-age=0, private"
+Jan 31 21:16:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 21:16:21 symfony [info] {sfWebResponse} Send content (24949 o)
+Jan 31 21:16:22 symfony [info] {myUser} Flag old flash messages ("message")
+Jan 31 21:16:22 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/auth/employees.jpg" (/).
+Jan 31 21:16:22 symfony [info] {myUser} Remove old flash messages ("message")

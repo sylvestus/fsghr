@@ -1,0 +1,48 @@
+Client Info
+
+User Agent : Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0
+Remote Address : 127.0.0.1
+
+Server Info
+
+Host : localhost
+PHP Version : 5.5.12-2ubuntu4.4
+Server : Apache/2.4.10 (Ubuntu)
+Admin : webmaster@localhost
+
+Document Root : /var/www/html
+ROOT_PATH : //var/www/html/ohrm
+
+OrangeHRM Installation Log
+
+Wed, 27 May 2015 21:47:08 +0300 DB Creation - Starting
+Wed, 27 May 2015 21:47:08 +0300 DB Creation - Done
+Wed, 27 May 2015 21:47:08 +0300 DB Creation - No Errors
+Wed, 27 May 2015 21:47:10 +0300 Fill Data Phase 1 - Starting
+Wed, 27 May 2015 21:47:10 +0300 Fill Data Phase 1 - Connected to the DB Server
+Wed, 27 May 2015 21:47:10 +0300 Fill Data Phase 1 - Selected the DB
+Wed, 27 May 2015 21:47:10 +0300 Fill Data Phase 1 - Reading DB Script
+Wed, 27 May 2015 21:47:10 +0300 Fill Data Phase 1 - Opened DB Script
+Wed, 27 May 2015 21:47:10 +0300 Fill Data Phase 1 - Read DB script
+Wed, 27 May 2015 21:47:10 +0300 Fill Data Phase 1 - There are 284 Statements in the DB script
+Wed, 27 May 2015 21:48:05 +0300 Fill Data Phase 1 - Done
+Wed, 27 May 2015 21:48:05 +0300 Fill Data Phase 1 - No Errors
+Wed, 27 May 2015 21:48:07 +0300 Fill Data Phase 2 - Starting
+Wed, 27 May 2015 21:48:07 +0300 Fill Data Phase 2 - Connected to the DB Server
+Wed, 27 May 2015 21:48:07 +0300 Fill Data Phase 2 - Selected the DB
+Wed, 27 May 2015 21:48:07 +0300 Fill Data Phase 2 - Reading DB Script
+Wed, 27 May 2015 21:48:07 +0300 Fill Data Phase 2 - Opened DB Script
+Wed, 27 May 2015 21:48:07 +0300 Fill Data Phase 2 - Read DB script
+Wed, 27 May 2015 21:48:07 +0300 Fill Data Phase 2 - There are 127 Statements in the DB script
+Wed, 27 May 2015 21:48:11 +0300 Fill Data Phase 1 - Connected to the DB Server
+Wed, 27 May 2015 21:48:11 +0300 Fill Data Phase 2 - Done
+Wed, 27 May 2015 21:48:12 +0300 Fill Data Phase 2 - No Errors
+Wed, 27 May 2015 21:48:14 +0300 Create DB user - Starting
+Wed, 27 May 2015 21:48:14 +0300 Create DB user - Done
+Wed, 27 May 2015 21:48:14 +0300 Create DB user - No Errors
+Wed, 27 May 2015 21:48:16 +0300 Create OrangeHRM user - Starting
+Wed, 27 May 2015 21:48:16 +0300 Create OrangeHRM user - Done
+Wed, 27 May 2015 21:48:16 +0300 Create OrangeHRM user - No Errors
+Wed, 27 May 2015 21:48:18 +0300 Write Conf - Starting
+Wed, 27 May 2015 21:48:18 +0300 Write Conf - Done
+Wed, 27 May 2015 21:48:18 +0300 Write Conf - No Errors
